@@ -1,0 +1,27 @@
+{
+  "name": "projetsymf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "encore production",
+    "dev": "encore dev",
+    "watch": "encore dev --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.5.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "tailwindcss": "^3.3.5"
+  }
+}
